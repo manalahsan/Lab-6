@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<title> form </title>
+<style>
+h1
+{
+color:green; 
+background-color:pink;
+}
+.imp
+{
+color:pink;
+background-color:teal;
+}
+</style>
+</head>
+
+<body>
+
+<form action="/action_page.php">
+
+<label for="fname"> Name:</label><br>
+<input type="text" id= "fname" placeholder="Jane"name="fname">
+<br>
+<label for="lname"> Name:</label><br>
+<input type="text" id= "lname" value="Doe" name="lname">
+<br>
+<label for="pass"> Password: </label><br>
+<input type="password" id="pass"> <br>
+
+<label for="email"> Email: </label><br>
+<input type="email" id="email"><br>
+
+<input type="date"><br>
+<input type="time"><br>
+<input type= "number" min="1" max="100"><br>
+
+<input type="checkbox"> Male
+<input type="checkbox"> Female
+<br>
+<input type="radio" name="M/F">Male<br>
+<input type="radio" name="M/F">Female
+
+<br>
+<input type="submit">
+<input type="reset"><br>
+
+<input type ="button" value="suspicious">
+
+</form>
+<br>
+<form>
+<label for="cars"> Choose a car: </label>
+<select id="cars" name="cars">                           *id is just to assign it to label
+<option value="audi">Audi</option>                         *name for back-end
+<option value="lamborg"> Lamborghini </option>              *value option for back-end
+</select><br>
+<input type="submit">
+</form>
+<br>
+<h1>Hello Im heading 1 internal styling </h1>
+<h1> ayoo</h1>
+
+<h1 class="imp"> heading 1 different </h1>
+<h2 style= "color:purple; background-color:lavender;"> heading 2 inline styling </h2>
+
+
+</body>
+</html>
